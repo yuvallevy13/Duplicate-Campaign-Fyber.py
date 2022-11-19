@@ -17,7 +17,7 @@ new_date = "19_Nov"
 
 os = platform.system()
 print(os)
-input("df")
+input("gf")
 s = Service("C:\\Temp\\PSL\\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 driver.implicitly_wait(10)

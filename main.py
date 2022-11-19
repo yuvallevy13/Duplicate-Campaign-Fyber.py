@@ -8,12 +8,16 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
 import pyautogui
 import time
+import platform
 
 # date = input("what the campaign date you want to duplicate?")
 # new_date = input("What is today date?")
 date = "14_Nov"
 new_date = "19_Nov"
 
+os = platform.system()
+print(os)
+input("df")
 s = Service("C:\\Temp\\PSL\\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 driver.implicitly_wait(10)

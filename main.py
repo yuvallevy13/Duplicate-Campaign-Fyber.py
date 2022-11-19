@@ -157,7 +157,7 @@ for game in gamelist:
             active_menu = pyautogui.click(1813, 898)
             time.sleep(2)
             duplicate = pyautogui.click(1702, 866)
-            time.sleep(7)
+            time.sleep(12)
             open_new_campaign = driver.find_element(By.CSS_SELECTOR,
                                                     "#ofw-campaign-table > div:nth-child(2) > table > tbody > tr:nth-child(2)")
             open_new_campaign.click()

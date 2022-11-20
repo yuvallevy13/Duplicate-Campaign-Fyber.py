@@ -107,7 +107,7 @@ for game in gamelist:
         campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
                  "_10000M_android_Fyber_CPE_US_", "_10000M_android_Fyber_CPE_WW_", "_4000M_android_Fyber_CPE_WW_",
                  "_9500M_android_Fyber_CPE_WW_", "_800M_android_Fyber_CPE_WW_",
-                 "_android_Fyber_MR_CPE_Medium_WW_", "_android_Fyber_MR_CPE_Easy_US_"]
+                 "_android_Fyber_MR_CPE_Medium_WW_", "_android_Fyber_MR_CPE_Easy_US_", "_600M_android_Fyber_CPE_WW_"]
 
     elif game == "Pin Pulls":
         game_shortcut = "PP"

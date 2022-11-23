@@ -12,8 +12,8 @@ import platform
 
 # date = input("what the campaign date you want to duplicate?")
 # new_date = input("What is today date?")
-date = "14_Nov"
-new_date = "19_Nov"
+date = "19_Nov"
+new_date = "23_Nov"
 
 os = platform.system()
 print(os)
@@ -105,9 +105,9 @@ for game in gamelist:
 
         game_shortcut = "ER"
         campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
-                 "_10000M_android_Fyber_CPE_US_", "_10000M_android_Fyber_CPE_WW_", "_4000M_android_Fyber_CPE_WW_",
-                 "_9500M_android_Fyber_CPE_WW_", "_800M_android_Fyber_CPE_WW_",
-                 "_android_Fyber_MR_CPE_Medium_WW_", "_android_Fyber_MR_CPE_Easy_US_", "_600M_android_Fyber_CPE_WW_"]
+                 "_10000M_android_Fyber_CPE_US_", "_10000M_android_Fyber_CPE_WW_",
+                 "_9500M_android_Fyber_CPE_WW_", "_android_Fyber_MR_CPE_V3_WW_", "_android_Fyber_MR_CPE_V3_US_", "_9500M_android_Fyber_CPE_US_",
+                 "_android_Fyber_MR_CPE_Medium_WW_", "_android_Fyber_MR_CPE_Easy_US_", "_600M_android_Fyber_CPE_WW_", "ER_android_Fyber_MR_CPE_V3_WW_", "ER_android_Fyber_MR_CPE_V3_US_", "ER_9500M_android_Fyber_CPE_US_"]
 
     elif game == "Pin Pulls":
         game_shortcut = "PP"

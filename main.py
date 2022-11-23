@@ -17,7 +17,7 @@ new_date = "23_Nov"
 
 os = platform.system()
 print(os)
-input("gf")
+
 s = Service("C:\\Temp\\PSL\\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 driver.implicitly_wait(10)
@@ -107,7 +107,7 @@ for game in gamelist:
         campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
                  "_10000M_android_Fyber_CPE_US_", "_10000M_android_Fyber_CPE_WW_",
                  "_9500M_android_Fyber_CPE_WW_", "_android_Fyber_MR_CPE_V3_WW_", "_android_Fyber_MR_CPE_V3_US_", "_9500M_android_Fyber_CPE_US_",
-                 "_android_Fyber_MR_CPE_Medium_WW_", "_android_Fyber_MR_CPE_Easy_US_", "_600M_android_Fyber_CPE_WW_", "ER_android_Fyber_MR_CPE_V3_WW_", "ER_android_Fyber_MR_CPE_V3_US_", "ER_9500M_android_Fyber_CPE_US_"]
+                 "_android_Fyber_MR_CPE_Medium_WW_", "_android_Fyber_MR_CPE_Easy_US_", "_600M_android_Fyber_CPE_WW_", "_android_Fyber_MR_CPE_V3_WW_", "ER_android_Fyber_MR_CPE_V3_US_", "ER_9500M_android_Fyber_CPE_US_"]
 
     elif game == "Pin Pulls":
         game_shortcut = "PP"

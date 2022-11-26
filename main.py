@@ -12,15 +12,15 @@ import platform
 
 # date = input("what the campaign date you want to duplicate?")
 # new_date = input("What is today date?")
-date = "19_Nov"
-new_date = "23_Nov"
+date = "23_Nov"
+new_date = "26_Nov"
 
 os = platform.system()
 print(os)
 
 s = Service("C:\\Temp\\PSL\\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
-driver.implicitly_wait(10)
+driver.implicitly_wait(25)
 
 # print(pyautogui.position())
 

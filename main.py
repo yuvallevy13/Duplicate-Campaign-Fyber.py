@@ -104,10 +104,7 @@ for game in gamelist:
     elif game == "Eat Repeat":
 
         game_shortcut = "ER"
-        campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
-                 "_10000M_android_Fyber_CPE_US_", "_10000M_android_Fyber_CPE_WW_",
-                 "_9500M_android_Fyber_CPE_WW_", "_android_Fyber_MR_CPE_V3_WW_", "_android_Fyber_MR_CPE_V3_US_", "_9500M_android_Fyber_CPE_US_",
-                 "_android_Fyber_MR_CPE_Medium_WW_", "_android_Fyber_MR_CPE_Easy_US_", "_600M_android_Fyber_CPE_WW_", "_android_Fyber_MR_CPE_V3_WW_", "_android_Fyber_MR_CPE_V3_US_", "_9500M_android_Fyber_CPE_US_"]
+        campaignslist = ["ER_android_Fyber_MR_CPE_V3_US_26_Nov", "ER_android_Fyber_MR_CPE_V2_US_26_Nov", "ER_android_Fyber_MR_CPE_V1_US_26_Nov", "ER_android_Fyber_MR_CPE_V3_WW_26_Nov", "ER_android_Fyber_MR_CPE_V2_WW_26_Nov", "ER_android_Fyber_MR_CPE_V1_WW_26_Nov", "ER_android_Fyber_MR_CPE_Break_Even_US_26_Nov", "ER_9500M_android_Fyber_CPE_US_26_Nov", "ER_9500M_android_Fyber_CPE_WW_26_Nov", "ER_10000M_android_Fyber_CPE_WW_26_Nov", "ER_10000M_android_Fyber_CPE_US_26_Nov"]
 
     elif game == "Pin Pulls":
         game_shortcut = "PP"
@@ -204,18 +201,7 @@ for game in gamelist:
             my_file2 = open('C:\\Users\\User\\PycharmProjects\\duplicate_Campaign_in_fyber\\campaigns.txt', "a")
             my_file2.write(campaign_game + '\n')
             my_file2.close()
-
             time.sleep(1)
-        campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
-                         "_android_Fyber_MR_CPE_HARD_US_", "_10000M_android_Fyber_CPE_US_",
-                         "_9000M_android_Fyber_CPE_US_", "_4000M_android_Fyber_CPE_US_",
-                         "_800M_android_Fyber_CPE_US_", "_android_Fyber_MR_CPE_HARD_BR_",
-                         "_android_Fyber_MR_CPE_Medium_BR_", "_10000M_android_Fyber_CPE_BR_",
-                         "_9000M_android_Fyber_CPE_BR_", "_4000M_android_Fyber_CPE_BR_",
-                         "_800M_android_Fyber_CPE_BR_", "_android_Fyber_MR_CPE_Medium_GB_"]
-        
-        campaignslist = ["_8000M_android_Fyber_CPE_WW_", "_600M_android_Fyber_CPE_WW_",
-                         "_android_Fyber_MR_CPE_Easy_WW_", "_android_Fyber_MR_CPE_Medium_WW_"]
 
     driver.refresh()
     time.sleep(3)

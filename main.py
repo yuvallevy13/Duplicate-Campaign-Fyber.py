@@ -104,7 +104,7 @@ for game in gamelist:
     elif game == "Eat Repeat":
 
         game_shortcut = "ER"
-        campaignslist = ["ER_android_Fyber_MR_CPE_V3_US_26_Nov", "ER_android_Fyber_MR_CPE_V2_US_26_Nov", "ER_android_Fyber_MR_CPE_V1_US_26_Nov", "ER_android_Fyber_MR_CPE_V3_WW_26_Nov", "ER_android_Fyber_MR_CPE_V2_WW_26_Nov", "ER_android_Fyber_MR_CPE_V1_WW_26_Nov", "ER_android_Fyber_MR_CPE_Break_Even_US_26_Nov", "ER_9500M_android_Fyber_CPE_US_26_Nov", "ER_9500M_android_Fyber_CPE_WW_26_Nov", "ER_10000M_android_Fyber_CPE_WW_26_Nov", "ER_10000M_android_Fyber_CPE_US_26_Nov"]
+        campaignslist = ["_android_Fyber_MR_CPE_V3_US_", "_android_Fyber_MR_CPE_V2_US_", "_android_Fyber_MR_CPE_V1_US_", "_android_Fyber_MR_CPE_V3_WW_", "_android_Fyber_MR_CPE_V2_WW_", "_android_Fyber_MR_CPE_V1_WW_", "_android_Fyber_MR_CPE_Break_Even_US_", "_9500M_android_Fyber_CPE_US_", "_9500M_android_Fyber_CPE_WW_", "_10000M_android_Fyber_CPE_WW_", "_10000M_android_Fyber_CPE_US_"]
 
     elif game == "Pin Pulls":
         game_shortcut = "PP"

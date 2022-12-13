@@ -12,8 +12,8 @@ import platform
 
 # date = input("what the campaign date you want to duplicate?")
 # new_date = input("What is today date?")
-date = "23_Nov"
-new_date = "26_Nov"
+date = "6_Dec"
+new_date = "13_Dec"
 
 os = platform.system()
 print(os)
@@ -25,18 +25,11 @@ driver.implicitly_wait(25)
 # print(pyautogui.position())
 
 # if needed to add more game we have to put his name in the list
-gamelist = ["Go Toy!", "The Monster Hunter", "Crypto Magnet", "Eat Repeat", "Go Green!", "Go Candy!", "Crashy Cops 3D", "Prison Escape: Pin Puzzle", "Pin Pulls", "Axe Champ", "Tricky Holes"]
-
+gamelist = ["Go Toy!", "The Monster Hunter", "Crypto Magnet", "Eat Repeat", "Go Green!", "Go Candy!", "Crashy Cops 3D", "Prison Escape: Pin Puzzle", "Pin Pulls", "Axe Champ"]
 # if needed to add more campaign  we have to put his name in the list
 
-campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
-                 "_android_Fyber_MR_CPE_HARD_US_", "_10000M_android_Fyber_CPE_US_", "_9000M_android_Fyber_CPE_US_",
-                 "_4000M_android_Fyber_CPE_US_", "_800M_android_Fyber_CPE_US_", "_android_Fyber_MR_CPE_HARD_BR_",
-                 "_android_Fyber_MR_CPE_Medium_BR_", "_10000M_android_Fyber_CPE_BR_", "_9000M_android_Fyber_CPE_BR_",
-                 "_4000M_android_Fyber_CPE_BR_", "_800M_android_Fyber_CPE_BR_", "_android_Fyber_MR_CPE_Medium_GB_", "_android_Fyber_MR_CPE_Easy_WW_", "_android_Fyber_MR_CPE_Medium_WW_"]
+campaignslist = []
 ########################################################################
-
-
 
 
 driver.get("https://acp-edge.fyber.com/")
@@ -54,30 +47,15 @@ for game in gamelist:
     # if needed to add more game we have to put his shortcut here #
     if game == "Go Toy!":
         game_shortcut = "GT"
-        campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
-                 "_android_Fyber_MR_CPE_HARD_US_", "_10000M_android_Fyber_CPE_US_", "_9000M_android_Fyber_CPE_US_",
-                 "_4000M_android_Fyber_CPE_US_", "_800M_android_Fyber_CPE_US_", "_android_Fyber_MR_CPE_HARD_BR_",
-                 "_android_Fyber_MR_CPE_Medium_BR_", "_10000M_android_Fyber_CPE_BR_", "_9000M_android_Fyber_CPE_BR_",
-                 "_4000M_android_Fyber_CPE_BR_", "_800M_android_Fyber_CPE_BR_", "_android_Fyber_MR_CPE_Medium_GB_", "_8000M_android_Fyber_CPE_WW_", "_600M_android_Fyber_CPE_WW_",
-                         "_android_Fyber_MR_CPE_Easy_WW_", "_android_Fyber_MR_CPE_Medium_WW_"]
+        campaignslist = ["_8000M_android_Fyber_CPE_US_", "_android_Fyber_MR_CPE_V1_WW_", "_android_Fyber_MR_CPE_V1_US_", "_8000M_android_Fyber_CPE_WW_"]
 
     elif game == "Go Candy!":
         game_shortcut = "GC"
-        campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
-                 "_android_Fyber_MR_CPE_HARD_US_", "_10000M_android_Fyber_CPE_US_", "_9000M_android_Fyber_CPE_US_",
-                 "_4000M_android_Fyber_CPE_US_", "_800M_android_Fyber_CPE_US_", "_android_Fyber_MR_CPE_HARD_BR_",
-                 "_android_Fyber_MR_CPE_Medium_BR_", "_10000M_android_Fyber_CPE_BR_", "_9000M_android_Fyber_CPE_BR_",
-                 "_4000M_android_Fyber_CPE_BR_", "_800M_android_Fyber_CPE_BR_", "_android_Fyber_MR_CPE_Medium_GB_", "_10000M_android_Fyber_CPE_WW_", "_650M_android_Fyber_CPE_WW_",
-                         "_android_Fyber_MR_CPE_Easy_WW_", "_android_Fyber_MR_CPE_Medium_WW_"]
+        campaignslist = ["_android_Fyber_MR_CPE_V2_US_", "_android_Fyber_MR_CPE_V2_WW_", "_7000M_android_Fyber_CPE_US_", "_7000M_android_Fyber_CPE_US_", "_7000M_android_Fyber_CPE_WW_", "_android_Fyber_MR_CPE_V1_WW_", "_android_Fyber_MR_CPE_V1_US_"]
 
     elif game == "Go Green!":
         game_shortcut = "GG"
-        campaignslist = ["_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_",
-                 "_android_Fyber_MR_CPE_HARD_US_", "_10000M_android_Fyber_CPE_US_", "_9000M_android_Fyber_CPE_US_",
-                 "_4000M_android_Fyber_CPE_US_", "_800M_android_Fyber_CPE_US_", "_android_Fyber_MR_CPE_HARD_BR_",
-                 "_android_Fyber_MR_CPE_Medium_BR_", "_10000M_android_Fyber_CPE_BR_", "_9000M_android_Fyber_CPE_BR_",
-                 "_4000M_android_Fyber_CPE_BR_", "_800M_android_Fyber_CPE_BR_", "_android_Fyber_MR_CPE_Medium_GB_", "_10000M_android_Fyber_CPE_WW_", "_700M_android_Fyber_CPE_WW_",
-                         "_android_Fyber_MR_CPE_Easy_WW_", "_android_Fyber_MR_CPE_Medium_WW_"]
+        campaignslist = ["_10000M_android_Fyber_CPE_WW_", "_10000M_android_Fyber_CPE_US_", "_android_Fyber_MR_CPE_Medium_US_", "_android_Fyber_MR_CPE_Medium_WW_", "_android_Fyber_MR_CPE_Easy_US_"]
 
     elif game == "The Monster Hunter":
         game_shortcut = "TMH"
@@ -104,11 +82,11 @@ for game in gamelist:
     elif game == "Eat Repeat":
 
         game_shortcut = "ER"
-        campaignslist = ["_android_Fyber_MR_CPE_V3_US_", "_android_Fyber_MR_CPE_V2_US_", "_android_Fyber_MR_CPE_V1_US_", "_android_Fyber_MR_CPE_V3_WW_", "_android_Fyber_MR_CPE_V2_WW_", "_android_Fyber_MR_CPE_V1_WW_", "_android_Fyber_MR_CPE_Break_Even_US_", "_9500M_android_Fyber_CPE_US_", "_9500M_android_Fyber_CPE_WW_", "_10000M_android_Fyber_CPE_WW_", "_10000M_android_Fyber_CPE_US_"]
+        campaignslist = ["_android_Fyber_MR_CPE_V3_US_", "_android_Fyber_MR_CPE_V2_US_", "_android_Fyber_MR_CPE_V1_US_", "_android_Fyber_MR_CPE_V3_WW_", "_android_Fyber_MR_CPE_V2_WW_", "_android_Fyber_MR_CPE_V1_WW_", "_9500M_android_Fyber_CPE_US_", "_9500M_android_Fyber_CPE_WW_"]
 
     elif game == "Pin Pulls":
         game_shortcut = "PP"
-        campaignslist = ["_android_Fyber_Balloon_Unlock_13_CPE_US_", "_android_Fyber_Balloon_Unlock_13_CPE_WW_"]
+        campaignslist = ["_android_Fyber_Balloon_Unlock_12_CPE_US_", "_android_Fyber_Pin_Unlock_17_CPE_WW_", "_android_Fyber_Pin_Unlock_17_CPE_US_"]
 
 
     elif game == "Crashy Cops 3D":
@@ -118,9 +96,7 @@ for game in gamelist:
 
     elif game == "Prison Escape: Pin Puzzle":
         game_shortcut = "PE"
-        campaignslist = ["_android_Fyber_MR_CPE_Medium_WW_",
-                         "_android_Fyber_MR_CPE_Medium_US_", "_300K_android_Fyber_CPE_WW_",
-                         "_300K_android_Fyber_CPE_BR_", "_300K_android_Fyber_CPE_US_"]
+        campaignslist = ["_android_Fyber_MR_CPE_V1_WW_", "_android_Fyber_MR_CPE_V2_WW_", "_android_Fyber_MR_CPE_V2_US_", "_android_Fyber_MR_CPE_V1_US_", "_300K_android_Fyber_CPE_WW_", "_300K_android_Fyber_CPE_US_"]
 
     elif game == "Axe Champ":
         game_shortcut = "AC"

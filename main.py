@@ -12,8 +12,8 @@ import platform
 
 # date = input("what the campaign date you want to duplicate?")
 # new_date = input("What is today date?")
-date = "6_Dec"
-new_date = "13_Dec"
+date = "25_Dec"
+new_date = "1_Jan"
 
 os = platform.system()
 print(os)
@@ -24,13 +24,15 @@ driver.implicitly_wait(25)
 
 # print(pyautogui.position())
 
+#  "Pin Pulls", "Tricky Holes"
 # if needed to add more game we have to put his name in the list
-gamelist = ["Go Toy!", "The Monster Hunter", "Crypto Magnet", "Eat Repeat", "Go Green!", "Go Candy!", "Crashy Cops 3D", "Prison Escape: Pin Puzzle", "Pin Pulls", "Axe Champ"]
+gamelist = ["Tricky Holes", "Go Toy!", "The Monster Hunter", "Crypto Magnet", "Eat Repeat", "Go Green!", "Go Candy!", "Crashy Cops 3D", "Prison Escape: Pin Puzzle", "Axe Champ"]
 # if needed to add more campaign  we have to put his name in the list
 
 campaignslist = []
 ########################################################################
 
+#test dror
 
 driver.get("https://acp-edge.fyber.com/")
 driver.maximize_window()
@@ -106,8 +108,8 @@ for game in gamelist:
 
     elif game == "Tricky Holes":
         game_shortcut = "TH"
-        campaignslist = ["_30K_android_Fyber_CPE_US_", "_100K_android_Fyber_CPE_US_",
-                         "_50K_android_Fyber_CPE_US_"]
+        campaignslist = ["_500K_android_Fyber_CPE_US_", "_500K_android_Fyber_CPE_WW_",
+                         "_android_Fyber_MR_CPE_V1_WW_", "_android_Fyber_MR_CPE_V1_US_"]
 
     search_game = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div[2]/input")
     search_game.send_keys(game)
